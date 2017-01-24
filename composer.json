@@ -1,0 +1,17 @@
+{
+  "require": {
+    "slim/slim"                   : "3.7.0",
+    "swagger-api/swagger-ui"      : "2.2.10",
+    "zircote/swagger-php"         : "2.0.8",
+    "phpunit/phpunit"             : "5.7.5",
+    "illuminate/database"         : "5.3.23",
+    "illuminate/pagination"       : "5.3.23",
+    "illuminate/filesystem"       : "5.3.23",
+    "illuminate/events"           : "5.3.23",
+    "monolog/monolog"             : "1.22.0",
+    "guzzlehttp/guzzle"           : "6.2.2"
+  },
+  "autoload": {
+    "psr-4": {"Intraway\\": "src/Intraway/"}
+  }
+}
